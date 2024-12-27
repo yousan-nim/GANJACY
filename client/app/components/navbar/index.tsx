@@ -12,7 +12,7 @@ const index = () => {
           <img src="./logos/Ganjacy.png" />
         </button>
 
-        <div className="flex items-center justify-center gap-6 text-lg font-bold text-green-700">
+        <div className="flex items-center justify-center gap-6 text-lg font-bold text-green-700 drop-shadow-md">
           <button>HOME</button>
           <button>ORDER</button>
           <button>STRAIN FINDER</button>

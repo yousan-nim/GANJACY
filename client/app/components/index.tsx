@@ -1,10 +1,6 @@
+import NavBar from "./navbar";
+import Header from "./header";
 
-import NavBar from './navbar'
+import VerifyNearYou from "./verifyNearYou";
 
-
-
-
-
-export {
-    NavBar
-}
+export { NavBar, Header, VerifyNearYou };

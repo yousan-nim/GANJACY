@@ -33,7 +33,7 @@ const langs = [
 ];
 
 const LangsBar = () => {
-  const items = 1;
+  // const items = 1;
 
   return (
     <div className="w-full min-h-[6vh] flex items-center justify-end px-4 space-x-3">
@@ -48,13 +48,13 @@ const LangsBar = () => {
         </a>
       ))}
 
-      <button className="px-2 py-3 h-[50px] bg-green-600 flex rounded-l-full rounded-r-full items-start justify-start hover:bg-green-700">
-        <BsCart4 className="text-white mx-2" size={24} />
-        <span className="text-white text-base">{items}</span>
-        <div className="text-white mx-2 font-semiBold"> Items</div>
+      <button className="px-2 h-[40px] bg-green-700 flex rounded-l-full rounded-r-full items-center justify-center hover:bg-green-600 shadow-lg">
+        <BsCart4 className="text-white mx-0" size={24} />
+        {/* <span className="text-white text-base">{items}</span>
+        <div className="text-white mx-2 font-semiBold"> Items</div> */}
       </button>
 
-      <button className="w-[50px] h-[50px] flex items-center justify-center py-3 text-green-600 hover:bg-green-600 hover:text-white rounded-full">
+      <button className="w-[40px] h-[40px] flex items-center justify-center py-3 text-green-700 hover:bg-green-700 hover:text-white rounded-full hover:shadow-lg">
         <FaUserLarge size={24} className="" />
       </button>
     </div>

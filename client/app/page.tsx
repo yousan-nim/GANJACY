@@ -4,6 +4,7 @@ import {
   VerifyNearYou,
   DispensariesBuzz,
   Articles,
+  JoinGanjacy,
 } from "./components";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
           <VerifyNearYou />
           <DispensariesBuzz />
           <Articles />
+          <JoinGanjacy />
         </div>
       </main>
     </div>

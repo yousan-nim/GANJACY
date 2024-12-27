@@ -80,7 +80,7 @@ const articls = [
 
 const Index = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-50">
+    <div className="w-full min-h-screen bg-gray-50 pb-10">
       <h2 className="w-full h-[20vh] flex items-center justify-center text-[40px] uppercase font-black text-green-700 drop-shadow-md">
         Articles on Cannabis Health and Culture
       </h2>

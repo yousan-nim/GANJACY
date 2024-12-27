@@ -1,4 +1,10 @@
-import { NavBar, Header, VerifyNearYou, DispensariesBuzz } from "./components";
+import {
+  NavBar,
+  Header,
+  VerifyNearYou,
+  DispensariesBuzz,
+  Articles,
+} from "./components";
 
 export default function Home() {
   return (
@@ -9,6 +15,7 @@ export default function Home() {
           <Header />
           <VerifyNearYou />
           <DispensariesBuzz />
+          <Articles />
         </div>
       </main>
     </div>

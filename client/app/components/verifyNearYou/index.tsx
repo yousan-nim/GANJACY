@@ -1,7 +1,5 @@
 import React from "react";
 
-
-
 const ShopNear = [
   {
     shopName: "Pakalolo Tha Tian - Cafe | Dispensary | Bar",
@@ -63,7 +61,7 @@ const ShopNear = [
 
 const Index = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-50">
+    <div className="w-full min-h-screen bg-gray-50 pb-10">
       {/* Header */}
       <h2 className="w-full h-[20vh] flex items-center justify-center text-[40px] uppercase font-black text-green-700 drop-shadow-md">
         Verified dispensaries near you
@@ -109,7 +107,7 @@ const Index = () => {
       </div>
 
       <div className="flex justify-center mt-10">
-        <button className="px-4 py-1 bg-gray-50 text-black border drop-shadow-md rounded-full hover:bg-gray-500">
+        <button className="px-4 py-1 bg-gray-50 text-black border drop-shadow-md rounded-full hover:bg-gray-100 hover:scale-125 transition-all duration-400">
           More
         </button>
       </div>

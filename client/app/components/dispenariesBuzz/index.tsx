@@ -83,7 +83,7 @@ const Index = () => {
       ))}
 
       <div className="flex justify-center mt-10">
-        <button className="px-4 py-1 bg-gray-50 text-black border drop-shadow-md rounded-full hover:bg-gray-500">
+        <button className="px-4 py-1 bg-gray-50 text-black border drop-shadow-md rounded-full hover:bg-gray-100 hover:scale-125 transition-all duration-400">
           Load More
         </button>
       </div>

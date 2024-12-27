@@ -80,7 +80,7 @@ const Index = () => {
             key={index}
             className="w-full bg-white shadow-lg p-2 border col-span-6 xl:col-span-2 relative rounded-xl flex flex-col justify-between hover:scale-110 transition-all duration-400"
           >
-            <h2 className="mb-2 font-bold text-lg">{article.textHead}</h2>
+            <h2 className="mb-2 font-bold text-lg text-black">{article.textHead}</h2>
 
             <img
               src={article.articlesImg}

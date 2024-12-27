@@ -62,7 +62,7 @@ const Index = () => {
         >
           <h2 className="text-lg font-bold text-green-600">{shop.shopName}</h2>
 
-          <h3 className="">{shop.buzz}</h3>
+          <h3 className="text-black">{shop.buzz}</h3>
 
           <img
             src={shop.buzzImg}

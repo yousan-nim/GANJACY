@@ -36,7 +36,7 @@ const LangsBar = () => {
   // const items = 1;
 
   return (
-    <div className="flex w-full min-h-[6vh] items-center justify-end px-4 space-x-3">
+    <div className="flex w-full min-h-[6vh] items-center justify-end px-4 space-x-3 bg-white">
       {langs.map((f) => (
         <a
           key={f.lang}

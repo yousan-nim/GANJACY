@@ -1,5 +1,7 @@
 import React from "react";
 
+
+
 const ShopNear = [
   {
     shopName: "Pakalolo Tha Tian - Cafe | Dispensary | Bar",
@@ -106,7 +108,11 @@ const Index = () => {
         ))}
       </div>
 
-      <button className="m-auto w-full text-center mt-10">more</button>
+      <div className="flex justify-center mt-10">
+        <button className="px-4 py-1 bg-gray-50 text-black border drop-shadow-md rounded-full hover:bg-gray-500">
+          More
+        </button>
+      </div>
     </div>
   );
 };

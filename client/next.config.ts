@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",  // <=== enables static exports
-  reactStrictMode: false,
-};
+const isProd = process.env.NODE_ENV === "production";
 
-module.exports = nextConfig;
+module.exports = {
+  output: "export", // Enables static export
+  assetPrefix: isProd ? "/GANJACY/" : "",
+  images: {
+    unoptimized: true, // Required for static export if using next/image
+  },
+};

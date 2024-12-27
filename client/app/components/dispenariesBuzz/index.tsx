@@ -51,14 +51,14 @@ const Buzz = [
 const Index = () => {
   return (
     <div className="w-full min-h-screen bg-gray-50 pb-10">
-      <h2 className="w-full h-[20vh] flex items-center justify-center text-[40px] uppercase font-black text-green-700 drop-shadow-md mb-10">
+      <h2 className="w-full h-[20vh] flex items-center justify-center text-[20px] xl:text-[40px] uppercase font-black text-green-700 drop-shadow-md mb-10">
         Dispensary buzz
       </h2>
 
       {Buzz.slice(0, 5).map((shop, index) => (
         <div
           key={index}
-          className="w-[50%] border bg-white rounded-lg drop-shadow-md m-auto p-4 mb-10"
+          className="w-[90%] xl:w-[50%] border bg-white rounded-lg drop-shadow-md m-auto p-4 mb-10"
         >
           <h2 className="text-lg font-bold text-green-600">{shop.shopName}</h2>
 

@@ -4,12 +4,12 @@ const Index = () => {
   return (
     <div className="w-full min-h-[70vh] overflow-hidden">
       <div
-        className="w-full h-[80vh] bg-cover bg-center"
+        className="w-full h-[70vh] bg-cover bg-center"
         style={{
           backgroundImage: "url('./join/ganjacy-join-dispensary-opt.jpg')",
         }}
       >
-        <div className="w-[35%] h-full bg-green-800 bg-opacity-90 flex text-center items-center justify-center ">
+        <div className="w-full xl:w-[35%] h-full bg-green-800 bg-opacity-90 flex text-center items-center justify-center ">
           <div>
             <h2 className="uppercase text-[40px] font-black text-white m-auto my-10">
               Join Ganjacy Now

@@ -63,12 +63,12 @@ const Index = () => {
   return (
     <div className="w-full min-h-screen bg-gray-50 pb-10">
       {/* Header */}
-      <h2 className="w-full h-[20vh] flex items-center justify-center text-[40px] uppercase font-black text-green-700 drop-shadow-md">
+      <h2 className="w-full h-[20vh] flex items-center justify-center text-[20px] xl:text-[40px] uppercase font-black text-green-700 drop-shadow-md">
         Verified dispensaries near you
       </h2>
 
       {/* Shop List */}
-      <div className="w-[40%] h-auto m-auto rounded-lg border overflow-y-auto drop-shadow-md">
+      <div className="w-[90%] xl:w-[40%] h-auto m-auto rounded-lg border overflow-y-auto drop-shadow-md">
         {ShopNear.slice(0, 5).map((shop, index) => (
           <div
             key={index}

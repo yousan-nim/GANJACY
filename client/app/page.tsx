@@ -1,5 +1,4 @@
 import {
-  NavBar,
   Header,
   VerifyNearYou,
   DispensariesBuzz,
@@ -12,7 +11,6 @@ export default function Home() {
     <div className="">
       <main className="">
         <div className="">
-          <NavBar />
           <Header />
           <VerifyNearYou />
           <DispensariesBuzz />

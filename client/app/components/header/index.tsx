@@ -10,13 +10,13 @@ const Index = () => {
         alt="Header"
       />
 
-      <h1 className="w-full text-center text-[46px] uppercase font-black leading-10 pt-0 text-white">
+      <h1 className="w-full text-center text-[28px] leading-7 xl:text-[46px] xl:leading-10 uppercase font-black  pt-0 text-white">
         Order quality cannabis products <br />
         from verified dispensaries in Thailand
       </h1>
 
       {/* White Box moved to bottom */}
-      <div className="w-[40%] h-auto bg-white shadow-lg m-auto mb-10 rounded-xl border">
+      <div className="w-[90%] xl:w-[40%] h-auto bg-white shadow-lg m-auto mb-10 rounded-xl border">
         <div className="w-full m-auto flex items-center py-10 ">
           <button className="min-w-[40%] py-2 px-4 text-[20px] text-white uppercase font-bold bg-green-600 hover:bg-green-500 rounded-md m-auto shadow-lg">
             order ween
